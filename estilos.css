@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    background-color: darkseagreen;
+    
+}
+.secundaria{
+    
+    border: solid 1px black;
+    width: 100%;
+
+    margin-left: 50px;
+    padding: 20px;
+    background-color:darkgrey;
+    margin-top: 50px;
+}
+
+.navegacion{
+    
+   
+    padding: 10px;
+  display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    border-radius: 5px;
+   
+    
+   
+}
+.lista-oculta{
+    position: absolute;
+    border: solid 10px #ccc;
+    background-color: #ccc;
+    margin-top: 0;
+    width: 14%;
+    height: 300px;
+}
+
+.ejemplo{
+    display: flex;
+    
+}
+.ejemplo img{
+    width: 50%;
+    height: 130px;
+    margin-left: 250px;
+    transition: 2s;
+   
+}
+.ejemplo img:hover{
+    height: 250px;
+    border-radius: 10px;
+}
+#mensaje{
+    position: absolute;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: justify;
+}
+
+#entrada{
+    padding:  10px 55px 10px 55px;
+    border-radius: 50px;
+text-align: center;
+    box-shadow: 4px 5px 5px white;
+    border: none;
+    outline: none; 
+    font-weight: bold;
+    
+    
+}
+#entrada:focus{
+
+    background-color:darkgrey;
+}
+#menu{
+    background-color: white;
+    color: blue;
+    border-radius: 50px;
+    outline: none;
+    font-weight: bold;
+}
+#buscar{
+      border-radius: 50px;
+       
+      
+    background-color: darkblue;
+    border: none;
+    outline: none;
+
+}
+
+.titulo{
+    
+    text-align: center;
+    font-size: 30px
+}
+.principal{
+    width: 80%;
+    margin: auto;
+    
+}
+.imagen{
+    width: 200px;
+    height: 300px;
+}
+span{
+    font-size: 40px;
+}
+aside{
+   
+   margin-left: 70px;
+    width: 30%;
+    height: 50%;
+  
+
+       
+    
+}
+aside img{
+    width: 400px;
+    height: 300px
+}
+
+.contenedor{
+    display: flex;
+   
+}
+ul li {
+    margin: 20px
+}
+ul li a{
+    font-size: 25px
+}
+
+
+
+#covidianidad{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px
+}
+footer{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+}
+#facebook img{
+   
+    width: 80%;
+}
+#twiter img{
+  
+    width: 30px;
+     border-radius: 50%;
+}
+#email img{
+   width: 30px;
+     border-radius: 50%;
+}
+#facebook {
+   
+  margin-top:  20px
+}
+#twiter {
+  
+ margin-top: 40px;
+   
+}
+#email{
+   margin-top: 60px;
+   
+}
+
